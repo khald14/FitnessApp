@@ -25,10 +25,23 @@ This project was built by using Java, firbase, Android studio.
 - App Splash Screen
 <img width="160" alt="splash screen" src="https://user-images.githubusercontent.com/63257625/178334272-1717f3b7-7afe-4e0a-a92a-7c0b0ab5fe89.png">
 
-<img width="160" alt="profile" src="https://user-images.githubusercontent.com/63257625/178334264-655694bd-f44f-4deb-a551-41839761dcc0.png">
-<img width="160" alt="home" src="https://user-images.githubusercontent.com/63257625/178334275-7d1c57e2-4466-40f7-9e5a-0dd5b3a56fb5.png">
-<img width="160" alt="exercises" src="https://user-images.githubusercontent.com/63257625/178334280-fd9508df-6e4a-4051-aa38-afa5ea38e220.png">
-<img width="160" alt="edit " src="https://user-images.githubusercontent.com/63257625/178334290-68f32326-e8c8-46d8-b43a-74c9746f1e40.png">
-<img width="160" alt="spec" src="https://user-images.githubusercontent.com/63257625/178334292-78bc7848-078a-484e-a687-497df9308b06.png">
+- Phone Auth Activity
 <img width="160" alt="phone" src="https://user-images.githubusercontent.com/63257625/178334293-24bb91e1-78e8-4ed4-a2f3-ea5d56f61426.png">
+
+- OTP Code Activity
 <img width="160" alt="otp" src="https://user-images.githubusercontent.com/63257625/178334297-b4642ee9-84cc-4bf0-86f3-d390b741ce15.png">
+
+- Profile Activity
+<img width="160" alt="profile" src="https://user-images.githubusercontent.com/63257625/178334264-655694bd-f44f-4deb-a551-41839761dcc0.png">
+
+- Home Activity (List of Packages of exercises)
+<img width="160" alt="home" src="https://user-images.githubusercontent.com/63257625/178334275-7d1c57e2-4466-40f7-9e5a-0dd5b3a56fb5.png">
+
+- Package Activity (List of Exercises)
+<img width="160" alt="exercises" src="https://user-images.githubusercontent.com/63257625/178334280-fd9508df-6e4a-4051-aa38-afa5ea38e220.png">
+
+- Exercise Activity 
+<img width="160" alt="spec" src="https://user-images.githubusercontent.com/63257625/178334292-78bc7848-078a-484e-a687-497df9308b06.png">
+
+- Edit Profile Activity
+<img width="160" alt="edit " src="https://user-images.githubusercontent.com/63257625/178334290-68f32326-e8c8-46d8-b43a-74c9746f1e40.png">
