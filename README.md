@@ -10,6 +10,7 @@ This project was built by using Java, firbase, Android studio.
 -Exercises Activity.
 -Specific Exercise Activity.
 
+
 ### `App description`
 - The user can sign in to the system using his phone number, the system send him an OTP code to his number in order to verify him.
 - After completing the signup/signin operation the system asks the user to put his profile information (height, weight, target weight and an image).
