@@ -3,16 +3,14 @@
 
 This project was built by using Java, firbase, Android studio.
 
+### `The App Includes`
+-Register view using firebase phone Auth
+-Edit Profile Activity
+-Packages Activity
+-Exercises Activity
+-Specific Exercise Activity
 
 ### `App description`
-
-The App Includes:
-Register view using firebase phone Auth
-Edit Profile Activity
-Packages Activity
-Exercises Activity
-Specific Exercise Activity
-
 - The user can sign in to the system using his phone number, the system send him an OTP code to his number in order to verify him.
 - After completing the signup/signin operation the system asks the user to put his profile information (height, weight, target weight and an image).
 - The system redirect the user to the packages screen, where the user can pick any package of exersices he want.
