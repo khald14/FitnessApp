@@ -4,11 +4,11 @@
 This project was built by using Java, firbase, Android studio.
 
 ### `The App Includes`
--Register view using firebase phone Auth
--Edit Profile Activity
--Packages Activity
--Exercises Activity
--Specific Exercise Activity
+-Register view using firebase phone Auth.
+-Edit Profile Activity.
+-Packages Activity.
+-Exercises Activity.
+-Specific Exercise Activity.
 
 ### `App description`
 - The user can sign in to the system using his phone number, the system send him an OTP code to his number in order to verify him.
