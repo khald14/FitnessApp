@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="fitness_app_will_send_otp_to_your_entered_number">Fitness App Will Send OTP To Your Entered Number</string>
+    <string name="enter_your_number">Enter Your Number…</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_the_otp_which_you_received">Enter The OTP Which You Received</string>
+    <string name="enter_the_otp_here">Enter the OTP here....</string>
+    <string name="didnt_receive_change_your_number">Didn\'t Receive ? Change Your Number</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="enter_your_name_here">Enter Your Name Here</string>
+    <string name="want_to_update_your_profile">Want To Update Your Profile ?</string>
+    <string name="save_your_profile">Save Your Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="from">from</string>
+    <string name="fitness_app">Fitness App</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="enter_your_new_name">Enter Your New Name…</string>
+    <string name="enter_your_height">Enter Your Height</string>
+    <string name="enter_your_weight">Enter Your Weight</string>
+    <string name="enter_your_target_weight">Enter Your Target Weight</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="name">name</string>
+    <string name="videos">videos</string>
+    <string name="go">GO</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="start">Start</string>
+    <string name="_0">0</string>
+</resources>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/logo_of_view_target"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@id/view_user_name"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/target"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_user_target"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.695"
+        app:tint="#716e6e" />
+
+    <ImageView
+        android:id="@+id/logo_of_view_height"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@id/view_user_name"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_user_height"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.603"
+        app:tint="#716e6e" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_of_view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0F9D58"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/back_button_of_view_profile"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white"
+                tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+            <TextView
+                android:id="@+id/my_app_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/back_button_of_view_profile"
+                android:text="@string/your_profile"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view_user_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/view_user_name"
+        android:layout_below="@+id/tool_bar_of_view_profile"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.100000024">
+
+
+        <ImageView
+            android:id="@+id/view_user_image_in_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defaultprofile"
+            tools:ignore="ImageContrastCheck" />
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/logo_of_view_profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@id/view_user_name"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_user_name"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.403"
+        app:tint="#716e6e" />
+
+    <ImageView
+        android:id="@+id/logo_of_view_weight"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@id/view_user_name"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_user_weight"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.51"
+        app:tint="#716e6e" />
+
+    <EditText
+        android:id="@+id/view_user_name"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:autofillHints=""
+        android:clickable="false"
+        android:enabled="false"
+        android:hint="@string/enter_your_name_here"
+        android:inputType="textCapWords"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.4">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/view_user_target"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:autofillHints=""
+        android:clickable="false"
+        android:enabled="false"
+        android:hint="@string/enter_your_target_weight"
+        android:inputType="textCapWords"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.7">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/view_user_height"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:autofillHints=""
+        android:clickable="false"
+        android:enabled="false"
+        android:hint="@string/enter_your_height"
+        android:inputType="textCapWords"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.604"
+        tools:ignore="TextFields">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/view_user_weight"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:autofillHints=""
+        android:clickable="false"
+        android:enabled="false"
+        android:hint="@string/enter_your_weight"
+        android:inputType="textCapWords"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.508"
+        tools:ignore="TextFields">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/move_to_update_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_user_name"
+        android:layout_centerInParent="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/want_to_update_your_profile"
+        android:textColor="#303030"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile"
+        app:layout_constraintVertical_bias="0.8">
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_for_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar_of_view_profile">
+
+    </ProgressBar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
